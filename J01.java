@@ -100,11 +100,9 @@ class Note15 {
 public class LaptopMain {
     public static void main(String[] args) {
         MiniNote miniNote = new MiniNote();
-        System.out.println("MiniNote cost: " + miniNote.getCost());
-        System.out.println("MiniNote price: " + miniNote.getPrice());
+        System.out.println("MiniNote cost:" + miniNote.getCost() + "， price:" + miniNote.getPrice());
 
         Note15 note15 = new Note15();
-        System.out.println("Note15 cost: " + note15.getCost());
-        System.out.println("Note15 price: " + note15.getPrice());
+        System.out.println("Note15 cost: " + note15.getCost() + "， price:" + note15.getPrice());
     }
 }
